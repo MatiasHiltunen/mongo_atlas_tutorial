@@ -50,7 +50,9 @@ MONGO_ATLAS_DB_USER=db_username...
 
 **6.2.** 
 
-No changes are needed here, this code is used to export a function that opens database connection from the backend server to the database.
+This code is used to export a function that opens database connection from the backend server to the database.
+
+If you'd like to use the sample app with your own Mongo Atlas cluster, `make sure to edit rest of the uri based on your own connection string!` in addition to the .env variables.
 
 _database.ts_
 
@@ -61,7 +63,7 @@ import type { ConnectOptions } from "mongoose"
 const mongoAccount = process.env.MONGO_ATLAS_DB_USER
 const mongoPassword = process.env.MONGO_ATLAS_PASSWORD
 
-const uri = `mongodb+srv://${mongoAccount}:${mongoPassword}@cc.o3fcphg.mongodb.net/?appName=cc`;
+const uri = `mongodb+srv://${mongoAccount}:${mongoPassword}@cc.o3bcphg.mongodb.net/?appName=cc`;
 
 const clientOptions  = { serverApi: { version: '1', strict: true, deprecationErrors: true } } as ConnectOptions;
 
