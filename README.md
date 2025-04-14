@@ -2,6 +2,12 @@
 
 Example repository for Cloud Computing module 6 
 
+
+_Helpful way to create your own repo based on this by using the `template` feature:_
+
+![alt text](images/gh_template.png.png)
+
+
 ## Getting Started
 
 1. Login to mongo Atlas: https://www.mongodb.com/products/platform/atlas-database
