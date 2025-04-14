@@ -1,0 +1,9 @@
+<Configuration>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\Users\matias.hiltunen\projects\mongo_atlas_tutorial</HostFolder>
+        <SandboxFolder>C:\temp\Projects\mongo</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+</Configuration>

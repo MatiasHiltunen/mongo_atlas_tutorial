@@ -1,0 +1,25 @@
+{
+  "name": "mongo_atlas_tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env --experimental-strip-types --watch index.ts"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "highlight.js": "^11.11.1",
+    "html-escaper": "^3.0.3",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/html-escaper": "^3.0.4",
+    "@types/node": "^22.14.1"
+  }
+}
