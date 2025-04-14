@@ -5,7 +5,7 @@ Example repository for Cloud Computing module 6
 
 _Helpful way to create your own repo based on this by using the `template` feature:_
 
-![alt text](images/gh_template.png.png)
+![alt text](images/gh_template.png)
 
 
 ## Getting Started
